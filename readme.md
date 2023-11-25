@@ -41,6 +41,7 @@ try {
                case "02" -> new GetDocumentRs()
                    .errorData(new ErrorData().code("04").name("something wrong, who knows what"));
                }
+            return response;
            }
        
        return new GetDocumentRs()
